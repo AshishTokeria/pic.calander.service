@@ -13,7 +13,7 @@ api = Api(app)
 
 parser = reqparse.RequestParser()
 db_path = os.path.join('/app/db', 'calander.db')
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///calanderdb.sqlite3'
+
 app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{db_path}'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
