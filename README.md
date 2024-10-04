@@ -12,7 +12,7 @@ The following endpoints are exposed
 
 
 a) add events one at a time
-http://127.0.0.1:5000/add_event
+http://<. . .>:5000/add_event
 
 {
     "id": 1,
@@ -21,10 +21,10 @@ http://127.0.0.1:5000/add_event
 }
 
 b) get all events
-http://127.0.0.1:5000/events
+http://<. . .>:5000/events
 
 c) get specific event in datetime_format
 http://127.0.0.1:5000/events/1?datetime_format='%Y-%m-%d'
 
 d) get events as per the date range
-http://127.0.0.1:5000/events?datetime_format='%Y-%m-%d'&from_time=2022-09-24T00:00:00&to_time=2025-09-21T23:59:59
+http://<. . .>:5000/events?datetime_format='%Y-%m-%d'&from_time=2022-09-24T00:00:00&to_time=2025-09-21T23:59:59
